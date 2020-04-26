@@ -6,7 +6,7 @@
  
  A Google Chrome extension that adds a button for doubling Whatsapp audios' playback rate.
 
-## Instruction
+## Instructions
 1. Clone this repository;
 2. Access chrome://extensions on Chrome;
 3. Turn on the developer mode (at the top-right);
