@@ -1,5 +1,10 @@
+
+
 # Faster WhatsApp Audios
-A Google Chrome extension that adds a button for doubling Whatsapp audios' playback rate;
+
+![MediumCut](https://user-images.githubusercontent.com/52306002/80307339-d2d55400-879e-11ea-8a57-74c16a271c28.png)
+ 
+ A Google Chrome extension that adds a button for doubling Whatsapp audios' playback rate.
 
 ## Instruction
 1. Clone this repository;
