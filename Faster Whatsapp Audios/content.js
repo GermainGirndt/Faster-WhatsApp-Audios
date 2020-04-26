@@ -13,24 +13,10 @@ const interval = setInterval(() => {
     button.addEventListener("click", () => {
 
         if (button_state == 0) {
-            button.style.backgroundColor = "lightgray";
-            button.style.color = "#222222";
-            button.style.border = "1px solid #999";
-            button.style.borderRadius = "30%";
-            const audios = document.querySelectorAll("audio");
-            audios.forEach((audio) => {
-                audio.playbackRate = 2
-            })
+            turn_on_doubled_playback_rate(button)
             button_state = 1
         } else {
-            button.style.backgroundColor = null;
-            button.style.color = null;
-            button.style.border = null;
-            button.style.borderRadius = null;
-            const audios = document.querySelectorAll("audio");
-            audios.forEach((audio) => {
-                audio.playbackRate = 1
-            })
+            turn_off_doubled_playback_rate(button)
             button_state = 0
         }
 
@@ -41,3 +27,31 @@ const interval = setInterval(() => {
     }
 
 }, 1000)
+
+
+
+function turn_on_doubled_playback_rate(button) {
+    console.log("Turned on")
+    button.style.backgroundColor = "lightgray";
+    button.style.color = "#222222";
+    button.style.border = "1px solid #999";
+    button.style.borderRadius = "30%";
+    const audios = document.querySelectorAll("audio");
+    audios.forEach((audio) => {
+        audio.playbackRate = 2
+    })
+}
+
+
+
+function turn_off_doubled_playback_rate(button) {
+    console.log("Turned off")
+    button.style.backgroundColor = null;
+    button.style.color = null;
+    button.style.border = null;
+    button.style.borderRadius = null;
+    const audios = document.querySelectorAll("audio");
+    audios.forEach((audio) => {
+        audio.playbackRate = 1
+    })
+}
