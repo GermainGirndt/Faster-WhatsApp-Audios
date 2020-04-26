@@ -1,7 +1,8 @@
 .doubleSpeedButton{
     color: gray;
-    font-size 1rem;
+    font-size 1,5rem;
+    padding: 9px;
     font-weight: bold;
     background-color: transparent;
-    border: none;
+    border: none; 
 }
