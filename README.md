@@ -4,7 +4,7 @@
 
 ![MediumCut](https://user-images.githubusercontent.com/52306002/80307339-d2d55400-879e-11ea-8a57-74c16a271c28.png)
  
- A Google Chrome extension that adds a button for **doubling Whatsapp Web audios'** playback rate. (Working on 26/04/2020)
+ A Google Chrome extension that adds a button for **doubling Whatsapp Web audios'** playback rate. (Working on 10/07/2020)
 
 ## :rocket: Direct Install
 
